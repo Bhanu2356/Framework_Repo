@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="0.016" tests="4" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="0.017" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="21.0.5+9-LTS-239"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="browser" value="friefox"/>
-    <property name="url" value="https://testenv.com"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\saiva\Training-workspace\Selenium_Project"/>
+    <property name="browser" value="chrome"/>
+    <property name="url" value="http://testenv.com"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\saiva\git\repository\Selenium_Project"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\saiva\Training-workspace\Selenium_Project"/>
+    <property name="user.dir" value="C:\Users\saiva\git\repository\Selenium_Project"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="21.0.5+9-LTS-239"/>
     <property name="os.arch" value="amd64"/>
@@ -49,7 +49,7 @@
     <property name="java.class.path" value="C:\Automationsoftware\apache-maven-3.9.16-bin\apache-maven-3.9.16\boot\plexus-classworlds-2.11.0.jar"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P RT -Durl=https://testenv.com -Dbrowser=friefox -Dusername=admin -Dpassword=admin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -P RT -Durl=http://testenv.com -Dbrowser=chrome -Dusername=admin -Dpassword=admin"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -67,6 +67,6 @@
   </properties>
   <testcase name="createcontactTest" classname="pack1.ContactTest" time="0.012"/>
   <testcase name="modifycontactTest" classname="pack1.ContactTest" time="0"/>
-  <testcase name="createOrgTest" classname="pack2.OrgTest" time="0.002"/>
-  <testcase name="modifyOrgTest" classname="pack2.OrgTest" time="0.002"/>
+  <testcase name="createOrgTest" classname="pack2.OrgTest" time="0.004"/>
+  <testcase name="modifyOrgTest" classname="pack2.OrgTest" time="0.001"/>
 </testsuite>
